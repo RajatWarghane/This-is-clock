@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>My Food Recipes Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            #navbar-main{
+                background-color: lightblue;
+                width: 100%;
+            }
+ 
+            .navbar-ul{
+                display: flex;
+                text-align: center;
+                flex-direction: row;
+                justify-content: center;
+            }
+ 
+            body{
+                background-image: linear-gradient(to bottom,orange,yellow);
+            }
+ 
+            .food-cards{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+ 
+            .food-card-ind{
+                background-color: white;
+                width: 200%;
+                margin-right: 5%;
+                margin-left: 5%;
+                box-shadow:2px 2px grey;
+                width: 220px;
+            }
+ 
+            .food-card-ind:hover{
+                background-color: yellow;
+            }
+ 
+            .image-styler{
+                width: 200px;
+                height: 200px;
+                margin:5%;
+            }
+ 
+            .food-card-text{
+                text-align: center;
+                font-size: large;
+            }
+ 
+            .page-headings{
+                text-align: center;
+                justify-content: center;
+                margin: 2%;
+            }
+            .food-card-ind{
+                border-radius: 30px;
+                border: 8px solid green;
+            }
+        </style>
+   
+    </head>
+    <body>
+        <nav id="navbar-main" style="display: flex; flex-direction: row;">
+            <img src="images (2).jfifp.jfif" style="width: 5%;margin:2%;border-radius: 25%;box-shadow: 1px 1px black;"/>
+            <ul class="navbar-ul" style="list-style: none; padding-top: 3%;">
+                <li style="margin-right: 25px;"><a href=""><p style="font-size: 25px;color: black;">Home</p></a></li>
+                <li  style="margin-right: 25px;"><a href="webpage.html"><p style="font-size: 25px;color: black;">Food Menu</p></a></li>
+                <li  style="margin-right: 25px;"><a href=""><p style="font-size: 25px;color: black;">About Us</p></a></li>
+            </ul>
+            <form class="ml-auto" style="margin-top:3%;margin-right: 2%;">
+                <input type="text" />
+                <button>Search Me</button>
+            </form>
+        </nav>
+        <h2 class="page-headings">Our Featured Dishes</h2>
+        <div class="food-cards">
+            <div class="food-card-ind" >
+                <img src="images.jfif" class="image-styler"/>
+                <p class="food-card-text"><b><i>Cuisine 1</i></b></p>
+            </div>
+            <div class="food-card-ind">
+                <img src="download (1).jfif" class="image-styler"/>
+                <p class="food-card-text"><b><i>Cuisine 2</i></b></p>
+            </div>
+            <div class="food-card-ind">
+                <img src="images.jfif" class="image-styler"/>
+                <p class="food-card-text"><b><i>Cuisine 3</i></b></p>
+            </div>
+            <div class="food-card-ind" >
+                <img src="download (1).jfif" class="image-styler"/>
+                <p class="food-card-text"><b><i>Cuisine 4</i></b></p>
+            </div>
+        </div>
+ 
+        <h2 class="page-headings">
+            Check out our Teaser!
+        </h2>
+ 
+        <iframe width="1000" height="315" style="margin-left:17%;" src="https://www.youtube.com/watch?v=5LBB6OV3Ano&list=RDMM5LBB6OV3Ano&start_radio=1
+        " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+        <h2 class="page-headings">
+            About Us
+        </h2>
+ 
+        <aside style="text-align: center;">
+            <p>Juicy, tender chicken, with crispy panko breadcrumbs on the outside, fluffy rice and crunchy cabbage. It's a super easy dream meal!</p>
+        </aside>
+ 
+        <h2 class="page-headings">
+            Our Menu
+        </h2>
+       
+        <table style="justify-content: center; text-align: center; border: 1px solid black;margin-left: 45%;background-color: white;">
+            <thead>
+                <th>Name</th>
+                <th>Price</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chocolates</td>
+                    <td>Rs. 50</td>
+                </tr>
+                <tr>
+                    <td>Ice Cream</td>
+                    <td>Rs. 100</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <nav id="navbar-main" style="display: flex; flex-direction: row;">
+            <p style="padding:1% 0% 0% 5%">&copy; All rights reserved. Newton School 2021</p>
+        </nav>
+    </body>
+</html>
